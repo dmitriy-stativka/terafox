@@ -1,5 +1,5 @@
 {
-  "name": "project_name",
+  "name": "terafox",
   "version": "1.0.0",
   "description": "test project",
   "main": "index.js",
@@ -33,5 +33,13 @@
     "gulp-watch": "^5.0.1",
     "postcss-preset-env": "^6.4.0",
     "postcss-scss": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriy-stativka/terafox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmitriy-stativka/terafox/issues"
+  },
+  "homepage": "https://github.com/dmitriy-stativka/terafox#readme"
 }

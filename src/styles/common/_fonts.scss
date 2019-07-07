@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ceyxhe');
+    src:  url('../fonts/icomoon.eot?ceyxhe#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ceyxhe') format('truetype'),
+      url('../fonts/icomoon.woff?ceyxhe') format('woff'),
+      url('../fonts/icomoon.svg?ceyxhe#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+.icon-layers:before {
+  content: "\e916";
+}
+.icon-Path_33:before {
+  content: "\e917";
+}
+.icon-XMLID_823:before {
+  content: "\e918";
+}
+.icon-Path_6:before {
+  content: "\e900";
+}
+.icon-Path_8:before {
+  content: "\e901";
+}
+.icon-Path_81:before {
+  content: "\e919";
+}
+.icon-Path_25:before {
+  content: "\e902";
+}
+.icon-Path_37:before {
+  content: "\e903";
+}
+.icon-shopping-cart:before {
+  content: "\e904";
+}

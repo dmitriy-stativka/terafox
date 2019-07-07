@@ -1,0 +1,63 @@
+.footer{
+    background-color: $white;
+    padding: 30px 0;
+
+    &_logo{
+        width: 120px;
+        margin: 0 auto;
+
+        @media(min-width: $desktop){
+            margin: 0;
+        }
+    }
+
+    &-top{
+        text-align: center;
+
+        @media(min-width: $desktop){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    &-list{
+        margin: 25px 0;
+        
+        @media(min-width: $desktop){
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+    }   
+    
+    &-items{
+        padding: 10px 0;
+
+        @media(min-width: $desktop){
+            padding: 0 15px;
+        }
+    }
+
+    &-link{
+        font-weight: 600;
+    }
+
+    
+    .header-info{
+        display: block;
+
+        &-tel{
+            margin: 0;
+            display: block;
+        }
+
+        &-callback{
+            text-align: center;
+        }
+
+        &-number{
+            color: $black;
+        }
+    }
+}
